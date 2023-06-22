@@ -1,0 +1,146 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+ 
+}
+/* Intro Component */
+
+.intro {
+  padding: 16px;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.3em;
+  text-align: center;
+  line-height: 1.8;
+  border-radius: 20px;
+  border: 2px solid red;
+  transition: 0.4s ease-in-out;
+  box-shadow: rgba(253, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(255, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  
+}
+
+.intro:hover {
+  background-color: red;
+}
+
+/* Nav Component */
+
+.nav {
+  margin-bottom: 42px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 4em;
+  color: rgb(254, 254, 255);
+  font-family: Pacifico;
+  margin-bottom: 150px;
+}
+
+.logo:hover {
+  color: red;
+}
+
+/* Card Component */
+
+.card_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 330px;
+  margin: 20px;
+  height: 700px;
+  position: relative;
+}
+
+.title_card {
+  text-align: center;
+  margin: 16px;
+  position: absolute;
+  top: 20px;
+  vertical-align: middle;
+  height: 50px
+}
+
+.card_description {
+ padding: 16px;
+ text-align: center;
+ margin: 16px;
+ border: 2px solid white
+}
+
+.picture {
+  opacity: 0.7;
+  margin: 18px;
+  transition: .4s ease-in-out;
+  border-radius: 10px;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+}
+
+.picture:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.grid {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+@media (prefers-reduced-motion) {
+  .card:hover span {
+    transform: none;
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+ 
+
+  .grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 120px;
+    max-width: 320px;
+    text-align: center;
+  }
+
+  .card {
+    padding: 1rem 2.5rem;
+  }
+
+  .card h2 {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: azure;
+  z-index: 5;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_logo:hover {
+  cursor: pointer;
+  fill: rgb(245, 245, 248)
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
