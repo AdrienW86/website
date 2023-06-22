@@ -39,8 +39,7 @@
 
 .logo {
   font-size: 4em;
-  color: rgb(254, 254, 255);
-  font-family: Pacifico;
+  color: rgb(250, 186, 68);
   margin: 40px auto 50px auto;
 }
 
@@ -97,6 +96,30 @@
  justify-content: center;
 }
 
+/* Footer Component */
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: azure;
+  z-index: 5;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_logo {
+  position: relative;
+  right: 7px;
+}
+
+.footer_logo:hover {
+  cursor: pointer;
+  fill: rgb(245, 245, 248)
+}
+
 /* Mobile */
 @media (max-width: 700px) {
 
@@ -120,19 +143,3 @@
   }
 }
 
-.footer {
-  height: 100px;
-  width: 100%;
-  background-color: azure;
-  z-index: 5;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-}
-
-.footer_logo:hover {
-  cursor: pointer;
-  fill: rgb(245, 245, 248)
-}
