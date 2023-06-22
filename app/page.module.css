@@ -19,6 +19,7 @@
   text-align: center;
   line-height: 1.8;
   border-radius: 20px;
+  color: white;
   border: 2px solid red;
   transition: 0.4s ease-in-out;
   box-shadow: rgba(253, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(255, 0, 0, 0.3) 0px 18px 36px -18px inset;
@@ -74,6 +75,7 @@
  padding: 16px;
  text-align: center;
  margin: 16px;
+ color: white;
  border: 2px solid white
 }
 
@@ -96,20 +98,11 @@
  justify-content: center;
 }
 
-@media (prefers-reduced-motion) {
-  .card:hover span {
-    transform: none;
-  }
-}
-
 /* Mobile */
 @media (max-width: 700px) {
- 
-
   .grid {
-    grid-template-columns: 1fr;
     margin-bottom: 120px;
-    max-width: 320px;
+    width: 100%;
     text-align: center;
   }
 
@@ -136,11 +129,4 @@
 .footer_logo:hover {
   cursor: pointer;
   fill: rgb(245, 245, 248)
-}
-
-/* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
-  .grid {
-    grid-template-columns: repeat(2, 50%);
-  }
 }
