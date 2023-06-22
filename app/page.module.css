@@ -23,7 +23,6 @@
   border: 2px solid red;
   transition: 0.4s ease-in-out;
   box-shadow: rgba(253, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(255, 0, 0, 0.3) 0px 18px 36px -18px inset;
-  
 }
 
 .intro:hover {
@@ -42,7 +41,7 @@
   font-size: 4em;
   color: rgb(254, 254, 255);
   font-family: Pacifico;
-  margin-bottom: 150px;
+  margin: 40px auto 50px auto;
 }
 
 .logo:hover {
@@ -100,6 +99,12 @@
 
 /* Mobile */
 @media (max-width: 700px) {
+
+  .intro {
+    width: 94%;
+    font-size: 1em;
+  }
+
   .grid {
     margin-bottom: 120px;
     width: 100%;
@@ -121,7 +126,8 @@
   background-color: azure;
   z-index: 5;
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
+  left: 0;
   display: flex;
   justify-content: center;
 }
