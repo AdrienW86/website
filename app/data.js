@@ -34,7 +34,7 @@ export const data = [
      },
      {
         title: "E-Money",
-        color: 'rgb(29, 30, 32)',
+        color: 'rgb(109, 107, 107)',
         font: "amatic",
         url: "https://exemple4.shop",
         description: "Exemple d'un  Portefolio pour une société de finances fictive",

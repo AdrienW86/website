@@ -11,7 +11,7 @@
 .intro {
   padding: 16px;
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto 90px auto;
   max-width: 1000px;
   font-weight: bold;
   font-style: italic;
@@ -39,7 +39,9 @@
 
 .logo {
   font-size: 4em;
-  color: rgb(250, 186, 68);
+  color: white;
+  font-style: italic;
+  /*color: rgb(250, 186, 68);*/
   margin: 40px auto 50px auto;
 }
 
@@ -62,10 +64,6 @@
 
 .title_card {
   text-align: center;
-  margin: 16px;
-  position: absolute;
-  top: 20px;
-  vertical-align: middle;
   height: 50px
 }
 
@@ -79,7 +77,6 @@
 
 .picture {
   opacity: 0.7;
-  margin: 18px;
   transition: .4s ease-in-out;
   border-radius: 10px;
   box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
