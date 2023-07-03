@@ -3,8 +3,18 @@ import Foodies from './assets/foodies.png'
 import MyTech from './assets/my-tech.png'
 import Emoney from './assets/e-money.png'
 import CBD from './assets/cbd.png'
+import Barber from './assets/barber.png'
 
 export const data = [
+   {
+      title: "CBD Store",
+      color: '#0a360e',
+      font: "amatic",
+      url: "https://exemple5.shop",
+      description: "Exemple d'un site e-commerce fictif de CBD",
+      image: CBD,
+      alt: "description de l'image de couverture du site",
+   },
     {
         title: "Beauty's",
         color: 'rgb(232, 114, 201)',
@@ -41,13 +51,14 @@ export const data = [
         image: Emoney,
         alt: "description de l'image de couverture du site",
      },
-    {
-        title: "CBD Store",
-        color: '#0a360e',
-        font: "amatic",
-        url: "https://exemple5.shop",
-        description: "Exemple d'un site e-commerce fictif de CBD",
-        image: CBD,
-        alt: "description de l'image de couverture du site",
-     },
+     {
+      title: "My Barber",
+      color: 'orangered',
+      font: "amatic",
+      url: "https://exemple1.fr",
+      description: "Exemple d'un commerce avec prise de rendez-vous en ligne",
+      image: Barber,
+      alt: "description de l'image de couverture du site",
+   },
+    
 ]

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Logo from '../assets/codev.svg'
+import Logo from '../assets/logo-black.svg'
 import styles from '../page.module.css'
 
  const Footer = () => {
