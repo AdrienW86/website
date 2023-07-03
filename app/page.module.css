@@ -3,15 +3,14 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 2rem;
- 
+  padding: 0 2rem 2rem 2rem
 }
 /* Intro Component */
 
 .intro {
   padding: 16px;
   width: 80%;
-  margin: 0 auto 90px auto;
+  margin: 10px auto 30px auto;
   max-width: 1000px;
   font-weight: bold;
   font-style: italic;
@@ -32,17 +31,14 @@
 /* Nav Component */
 
 .nav {
-  margin-bottom: 42px;
   display: flex;
+  padding: 0;
   justify-content: center;
 }
 
 .logo {
-  font-size: 4em;
   color: white;
   font-style: italic;
-  /*color: rgb(250, 186, 68);*/
-  margin: 40px auto 50px auto;
 }
 
 .logo:hover {

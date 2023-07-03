@@ -11,6 +11,8 @@ import styles from '../page.module.css'
           src={Logo} 
            height={200}  
            width={200}
+           alt="logo codev"
+           priority
         />
         </a>
     </nav>
